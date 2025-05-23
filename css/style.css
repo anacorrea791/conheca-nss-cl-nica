@@ -39,7 +39,7 @@
     height: 50vh;
     position: relative;
     color: rgb(255, 255, 255);
-    
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   
   .hero-overlay {
@@ -137,3 +137,71 @@
   .btn-white:hover {
     background-color: #ffffff;
   }
+
+ 
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff;
+    }
+
+    .card-medico {
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .card-medico img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      background-color: #1a1447;
+      padding: 0.3rem;
+    }
+
+    .nome-medico {
+      font-weight: 600;
+      color: #1a1447;
+    }
+
+    .especialidade,
+    .crm {
+      font-size: 0.9rem;
+      color: #333;
+    }
+
+    .btn-exp {
+      background-color: #d2ad6c;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-weight: 500;
+      padding: 0.4rem 1.2rem;
+    }
+
+    .btn-exp:hover {
+      background-color: #b88d50;
+    }
+
+    .subtitulo {
+      text-align: center;
+      color: #d2ad6c;
+      font-size: 0.8rem;
+      margin-top: 2rem;
+      font-weight: 500;
+    }
+
+    .titulo-secao {
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: #1a1447;
+    }
+
+    .instalacoes img {
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+      height: 250px;
+    }
