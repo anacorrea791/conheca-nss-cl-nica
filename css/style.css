@@ -1,0 +1,138 @@
+/* Botão personalizado */
+.btn-custom {
+    background-color: #d0a95d;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 30px;
+  }
+  
+  /* Exemplo de título personalizado */
+  h2 {
+    color: #d0a95d;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #464850;
+    color: white;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: white;
+    padding: 1rem 2rem;
+  }
+  
+  .navbar-brand img {
+    height: 40px;
+  }
+  
+  .hero-banner {
+    background-image: url("../img/log1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    position: relative;
+    color: white;
+  }
+  
+  .hero-overlay {
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+    padding-left: 4rem;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-weight: 400;
+  }
+  
+  .hero-btn {
+    margin-top: 1.5rem;
+    background-color: #d8a844 !important;
+    border: none !important;
+    color: white !important;
+  }
+  
+  .hero-btn:hover {
+    background-color: #c8942e;
+  }
+  
+  .btn-agendar {
+    background-color: #d8a844 !important;
+    color: white !important;
+    border: none !important;
+  }
+  
+  .btn-agendar:hover {
+    background-color: #c8942e !important;
+  }
+  
+  .navbar-nav .nav-link {
+    font-weight: bold;
+    margin: 0 0.5rem;
+  }
+  
+  .social-icons i {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    color: rgb(255, 255, 255);
+  }
+
+  .image-card {
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(109, 107, 107, 0.5); /* escurece a imagem */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .overlay h5 {
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+
+  .btn-white {
+    background-color: rgb(0, 0, 0);
+    color: black;
+    border: none;
+  }
+
+  .btn-white:hover {
+    background-color: #ffffff;
+  }
