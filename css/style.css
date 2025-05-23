@@ -33,12 +33,13 @@
   }
   
   .hero-banner {
-    background-image: url("../img/log1.jpg");
+    background-image: url("../img/img4.jpg");
     background-size: cover;
     background-position: center;
-    height: 60vh;
+    height: 50vh;
     position: relative;
-    color: white;
+    color: rgb(255, 255, 255);
+    
   }
   
   .hero-overlay {
@@ -100,7 +101,7 @@
 
   .image-card {
     position: relative;
-    height: 300px;
+    height: 390px;
     background-size: cover;
     background-position: center;
     color: rgb(255, 255, 255);
